@@ -1,6 +1,6 @@
 # 🍅 Tomato Ripeness Classification using Transfer Learning (MobileNetV2)
 
-This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe, ripe) from images using **Transfer Learning** based on the **MobileNetV2** architecture. The model is optimized for lightweight environments such as mobile and embedded systems.
+This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe, ripe and reject) from images using **Transfer Learning** based on the **MobileNetV2** architecture. The model is optimized for lightweight environments such as mobile and embedded systems.
 
 ---
 
@@ -17,8 +17,8 @@ This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe,
 - Python
 - TensorFlow / Keras
 - MobileNetV2 (pre-trained on ImageNet)
-- OpenCV (optional for image preprocessing)
-- Google Colab / Jupyter Notebook
+- Google Colab
+- Mobile (android studio with kotlin)
 
 ---
 
@@ -95,8 +95,8 @@ The model can be exported to `.h5` or `.tflite` format and deployed on:
 ## ✍️ Author
 
 - **Name**: Winda Sari Pardede  
-- **Email**: [your.email@example.com]  
-- **University**: [Your University Name]  
+- **Email**: windasaripardedee@gmail.com  
+- **University**: Politeknik Caltex Riau  
 - **Department**: Informatics Engineering
 
 ---
