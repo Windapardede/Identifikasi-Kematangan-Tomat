@@ -28,9 +28,10 @@ This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe,
 ├── dataset/
 │   ├── unripe/
 │   ├── semi_ripe/
-│   └── ripe/
+│   ├── ripe/
+│   └── reject/
 ├── model/
-│   └── mobilenetv2_tomato.h5
+│   └── tomato.tflite
 ├── tomato_classifier.ipynb
 ├── README.md
 └── requirements.txt
@@ -69,9 +70,10 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ## 🖼️ Sample Dataset Images
 
-| Unripe | Semi-ripe | Ripe |
-|--------|-----------|------|
-| ![](path_to_image/unripe.jpg) | ![](path_to_image/semi_ripe.jpg) | ![](path_to_image/ripe.jpg) |
+| Unripe 🍏 | Semi-ripe 🍊 | Ripe 🍅 | Rejected ❌ |
+|----------|--------------|--------|-------------|
+| ![](path_to_image/unripe.jpg) | ![](path_to_image/semi_ripe.jpg) | ![](path_to_image/ripe.jpg) | ![](path_to_image/reject.jpg) |
+
 
 ---
 
@@ -85,10 +87,8 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ## 📦 Deployment
 
-The model can be exported to `.h5` or `.tflite` format and deployed on:
+The model can be exported to `.tflite` format and deployed on:
 - Android (via TensorFlow Lite)
-- Raspberry Pi
-- Other edge devices
 
 ---
 
