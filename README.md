@@ -33,8 +33,7 @@ This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe,
 ├── model/
 │   └── tomato.tflite
 ├── tomato_classifier.ipynb
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
@@ -48,13 +47,7 @@ git clone https://github.com/WindaPardede28/Identifikasi-Kematangan-Tomat.git
 cd Identifikasi-Kematangan-Tomat
 ```
 
-2. **Install Dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the Notebook**
+2. **Run the Notebook**
    Open `tomato_classifier.ipynb` in Google Colab or Jupyter Notebook.
 
 ---
