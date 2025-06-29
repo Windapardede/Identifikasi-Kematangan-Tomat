@@ -81,8 +81,9 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ## 📊 Evaluation Results
 
-- **Validation Accuracy & Validation Los**
-  <img src="images/akurasi.png" width="200"/>
+- **Validation Accuracy & Validation Loss**  
+  <img src="images/akurasi.png" style="max-width: 100%; height: auto;" />
+
 - **Model Size**: ~14MB (efficient for deployment)
 
 ---
