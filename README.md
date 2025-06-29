@@ -75,14 +75,14 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 | Imature 🍏                                   | Half-Mature 🍊                                  | Mature 🍅                                  | Rejected ❌                                |
 | -------------------------------------------- | ----------------------------------------------- | ------------------------------------------ | ------------------------------------------ |
-| <img src="images/immature.jpg" width="150"/> | <img src="images/half-mature.jpg" width="150"/> | <img src="images/mature.jpg" width="150"/> | <img src="images/reject.jpg" width="150"/> |
+| <img src="images/immature.jpg" width="180"/> | <img src="images/half-mature.jpg" width="180"/> | <img src="images/mature.jpg" width="180"/> | <img src="images/reject.jpg" width="180"/> |
 
 ---
 
 ## 📊 Evaluation Results
 
-- **Validation Accuracy**: 95%+
-- **Validation Loss**: < 0.15
+- **Validation Accuracy & Validation Los**
+  <img src="images/akurasi.png" width="200"
 - **Model Size**: ~14MB (efficient for deployment)
 
 ---
