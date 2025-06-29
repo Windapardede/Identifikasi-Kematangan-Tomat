@@ -71,6 +71,30 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ---
 
+## 🧾 Dataset Description
+
+The dataset used in this project is structured into two main subsets:
+
+- **Training Set**: Contains 1,500 images per class
+- **Testing Set**: Contains 150 images per class
+
+Each class represents a tomato ripeness level:
+
+- **Imature** 🍏
+- **Half-Mature** 🍊
+- **Mature** 🍅
+- **Rejected** ❌
+
+The total dataset consists of **6,600 images** (6,000 for training and 600 for testing), and the images are organized in folders by label and split.
+
+To improve the model’s ability to generalize, the images vary in background, lighting conditions, and angles of the tomatoes.
+
+📁 You can download the dataset from the following link:
+
+🔗 **[Download Tomato Ripeness Dataset (Google Drive)](https://bit.ly/DatasetTomat)**
+
+---
+
 ## 🖼️ Sample Dataset Images
 
 | Imature 🍏                                   | Half-Mature 🍊                                  | Mature 🍅                                  | Rejected ❌                                |
