@@ -42,24 +42,27 @@ This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe,
 ## ⚙️ How to Use
 
 1. **Clone the Repository**
+
 ```bash
 git clone https://github.com/WindaPardede28/Identifikasi-Kematangan-Tomat.git
 cd Identifikasi-Kematangan-Tomat
 ```
 
 2. **Install Dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. **Run the Notebook**
-Open `tomato_classifier.ipynb` in Google Colab or Jupyter Notebook.
+   Open `tomato_classifier.ipynb` in Google Colab or Jupyter Notebook.
 
 ---
 
 ## 🧠 Model Architecture
 
 The model is based on **MobileNetV2**, pre-trained on the ImageNet dataset. The final layers are replaced with:
+
 - GlobalAveragePooling2D
 - Dense(128, ReLU activation)
 - Dense(3, Softmax activation)
@@ -70,10 +73,9 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ## 🖼️ Sample Dataset Images
 
-| Unripe 🍏 | Semi-ripe 🍊 | Ripe 🍅 | Rejected ❌ |
-|----------|--------------|--------|-------------|
-| ![](path_to_image/unripe.jpg) | ![](path_to_image/semi_ripe.jpg) | ![](path_to_image/ripe.jpg) | ![](path_to_image/reject.jpg) |
-
+| Imature 🍏              | Half-Mature 🍊             | Mature 🍅             | Rejected ❌           |
+| ----------------------- | -------------------------- | --------------------- | --------------------- |
+| ![](image/immature.jpg) | ![](image/half-mature.jpg) | ![](image/mature.jpg) | ![](image/reject.jpg) |
 
 ---
 
@@ -88,15 +90,16 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 ## 📦 Deployment
 
 The model can be exported to `.tflite` format and deployed on:
+
 - Android (via TensorFlow Lite)
 
 ---
 
 ## ✍️ Author
 
-- **Name**: Winda Sari Pardede  
-- **Email**: windasaripardedee@gmail.com  
-- **University**: Politeknik Caltex Riau  
+- **Name**: Winda Sari Pardede
+- **Email**: windasaripardedee@gmail.com
+- **University**: Politeknik Caltex Riau
 - **Department**: Informatics Engineering
 
 ---
