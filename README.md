@@ -73,9 +73,9 @@ Fine-tuning is applied to the last few layers to adapt the model to tomato ripen
 
 ## 🖼️ Sample Dataset Images
 
-| Imature 🍏               | Half-Mature 🍊              | Mature 🍅              | Rejected ❌            |
-| ------------------------ | --------------------------- | ---------------------- | ---------------------- |
-| ![](images/immature.jpg) | ![](images/half-mature.jpg) | ![](images/mature.jpg) | ![](images/reject.jpg) |
+| Imature 🍏                                   | Half-Mature 🍊                                  | Mature 🍅                                  | Rejected ❌                                |
+| -------------------------------------------- | ----------------------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| <img src="images/immature.jpg" width="150"/> | <img src="images/half-mature.jpg" width="150"/> | <img src="images/mature.jpg" width="150"/> | <img src="images/reject.jpg" width="150"/> |
 
 ---
 
