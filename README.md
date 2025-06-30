@@ -12,6 +12,12 @@ This project aims to classify the ripeness level of tomatoes (unripe, semi-ripe,
 
 ---
 
+📄 **Documentation**  
+For a detailed explanation of the dataset, methodology, and implementation, please refer to the following document:  
+➡️ [Tomato Ripeness Classification Documentation (PDF)](https://bit.ly/DokumentasiIdentifikasiTomat)
+
+---
+
 ## 🛠️ Technologies Used
 
 - Python
